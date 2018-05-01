@@ -15,4 +15,9 @@ For games where the win probablitlies based on bookmakers' odds was greater than
 
 For games where this differential was less than 15%, a bet was placed on a draw.
 
-First, let's try and identify biases in the odds of the past 1200 League of Ireland football matches, similar to those found in the book. The plots below show the odds probabilities and corresponding occurence rate for home wins and draws in the league, since 2012. 
+First, let's apply this strategy to League of Ireland football, across 1245 matches, from 2012 to 2018. In doing this we assume that any bias found in odds in 2012, is still present in 2018, i.e. that the market has not changed significantly, and that bookmaker's techniques remain the same. This asumption is openj to question, however is reasonable, given this is a minor league, not attracting much attention from bookmakers.
+
+Below is a graph of the Soccermatics odds-bias strategy returns over time, with a starting bankroll of $1000, placing 5% of our bank on each bet.
+
+
+
