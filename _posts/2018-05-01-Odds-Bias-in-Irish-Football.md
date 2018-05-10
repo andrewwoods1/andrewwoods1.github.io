@@ -15,9 +15,11 @@ For games where the win probablitlies based on bookmakers' odds was greater than
 
 For games where this differential was less than 15%, a bet was placed on a draw.
 
-First, let's apply this strategy to League of Ireland football. I'll create a logistic regression for home wins and draws, using the 2012 - 2016 seasons as training data. This wil form the basis for a strategy applied to games from 2017 to date.
+First, let's apply this strategy to League of Ireland football. I'll create a logistic regression for home wins and draws, using the 2012 - 2016 seasons as training data. 
+![Img1](/images/Odds_Prob_Soccermatics.png, "Logistic model fit")
+This wil form the basis for a strategy applied to games from 2017 to date. 
 
 Below is a graph of the Soccermatics odds-bias strategy returns over time, with a starting bankroll of $1000.
 
-![Img1](/images/Bank_GameNo.png "Bank roll over time")
+![Img2](/images/Bank_GameNo.png "Bank roll over time")
 
