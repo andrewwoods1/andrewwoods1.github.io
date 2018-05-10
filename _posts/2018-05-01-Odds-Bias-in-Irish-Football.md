@@ -19,5 +19,7 @@ First, let's apply this strategy to League of Ireland football. I'll create a lo
 
 Below is a graph of the Soccermatics odds-bias strategy returns over time, with a starting bankroll of $1000.
 
-![alt text](https://github.com/andrewwoods1/andrewwoods1/images/Bank_GameNo.png "Bank roll over time")
+![alt text][br]
 
+
+[br]: https://github.com/andrewwoods1/andrewwoods1/images/Bank_GameNo.png "Bank roll over time"
