@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Soccermatics odds-bias strategy - Does it apply to Irish league football?
+title: Soccermatics odds-bias strategy in Irish league football
 ---
 
 In his book Soccermatics: Mathematical Adventures in the Beautiful Game, David Sumpter trials a number of gambling strategies on English Premier League football.
