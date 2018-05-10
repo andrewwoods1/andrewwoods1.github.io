@@ -7,7 +7,7 @@ In his book Soccermatics: Mathematical Adventures in the Beautiful Game, David S
 
 Of these, success was found using what was termed as the 'odds-bias' strategy. 
 
-In his book, Prof. Sumpter fits a logistic regression model to estimate the 'true' odds, based on the odds offered by bookmakers. Prior to this he identifies some biases in the probabilities implied by bookies' odds, and the frequency with which these events occur. In doing this, an opportunity to make value bets was identified.
+Prof. Sumpter fits a logistic regression model to estimate the 'true' odds, based on the odds offered by bookmakers. Prior to this he identifies some biases in the probabilities implied by bookies' odds, and the frequency with which these events occur. In doing this, an opportunity to make value bets was identified.
 
 The overall strategy was as follows:
 
@@ -17,9 +17,15 @@ For games where this differential was less than 15%, a bet was placed on a draw.
 
 First, let's apply this strategy to League of Ireland football. I'll create a logistic regression for home wins and draws, using the 2012 - 2016 seasons as training data. 
 ![Img1](/images/Odds_Prob_Soccermatics.png "Logistic model fit")
-This wil form the basis for a strategy applied to games from 2017 to date. 
+This will form the basis for a Kelly strategy applied to games from 2017 to date. 
 
 Below is a graph of the Soccermatics odds-bias strategy returns over time, with a starting bankroll of $1000.
 
 ![Img2](/images/Bank_GameNo.png "Bank roll over time")
 
+The strategy performs well over the course of two seasons. At game 141 our bank roll takes a major hit. Here we placed a bet on Cork City to win at home versus Bohemians, who despite being priced on average at 12.19 came away with a win.
+
+On closer inspection of the strategy, not once was a draw bet placed over the two seasons. The plots below show that as in the Premier League, biases can be found in the prices given for home favourites, but this bias is not present for draws. As mentioned in the original book, punters usually prefer to side with one team over the other rather than back a draw, possibly because they support one the teams.
+A possible explanation for this bias not being present in our data is that this is a minor league and thus the biases fans have when betting on their teams is not present. 
+![Img3](/images/HomeWinsLOI.png "HW")
+![Img4](/images/DrawsLOI.png "D")
