@@ -34,6 +34,6 @@ A possible explanation for this bias not being present in our data is that this 
 
 The refined strategy was then applied, placing bets using our logistic model, from roughly 2013 to present. This turned a profit, as seen below.
 
-To further test the startegy, it was run again and again on different parts of the data. 50% was selected randomly to be used as training data, using the other 50% for testing. Of course, we're making a key assumption here, that the order in which results came in does not matter in the context of the apparent bises in the odds, and that these biases are the same throughout our dataset.
+To further test the startegy, it was run again and again on different parts of the data. 75% was selected randomly to be used as training data, using the other 25% for testing. Of course, we're making a key assumption here, that the order in which results came in does not matter in the context of the apparent bises in the odds, and that these biases are the same throughout our dataset.
 
 Having run the strategy 5000 times, the distribution of returns was found, and as below shows, the strategy almost always made a profit.
