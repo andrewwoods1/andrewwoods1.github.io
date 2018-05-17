@@ -16,7 +16,7 @@ A logistic regression model was used as described above, to come up with more ac
 
 ![Img1](/Bank_GameNo1.png "Bank roll over time")
 
-If it's assumed that the bias found in the odds does not change over the time the dataset covers, the strategy can be simulated on multiple test portions of the data. This was done 5,000 times, to get an accurate picture of the distribution of returns. The histogram below gives just a 6% chance of the strategy's return being below zero, with an average return of 55%.
+If it's assumed that the bias found in the odds does not change over the time the dataset covers, the strategy can be simulated on multiple test portions of the data. This was done 5,000 times, to get an accurate picture of the distribution of returns. The histogram below gives just a 6% chance of the strategy's return being below zero, with an average return of 55% over the course of roughly 300 games.
 
 ![Img2](/images/ReturnsDist.png "Returns")
 
