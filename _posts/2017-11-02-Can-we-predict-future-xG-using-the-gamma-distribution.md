@@ -27,12 +27,13 @@ I, unfortunately, don’t have access to Opta’s, or anyone else’s feed of en
 
 The variables included in what I judged to be the best functioning model for the Home team’s xG in any given Premier League match were the following:
 
-Home xG Ratio
-Away xG Ratio
-Home Shots On Target PG
-Home xG Per Shot
-Away Shots Conceded PG
-Away xG Per Shot
+Home xG Ratio\n
+Away xG Ratio\n
+Home Shots On Target PG\n
+Home xG Per Shot\n
+Away Shots Conceded PG\n
+Away xG Per Shot\n
+
 The model for Away xG took a similar form.
 
 The data used was the entirety of the 2016/17 season, as well as the current season to date.
