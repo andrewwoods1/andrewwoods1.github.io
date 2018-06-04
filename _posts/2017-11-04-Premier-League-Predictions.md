@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some sample model output - Premier League 4th Nov 2017
+title: Model Output - Premier League 4th Nov 2017
 ---
 
 **West Ham United vs Liverpool, 5:30pm – London Stadium**
