@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can we predict future xG using the gamma distribution
+title: Can we predict future xG using the gamma distribution?
 ---
 
 This post was written (and this blog was started) with the intention of explaining a model I’ve been working on to predict future expected goals, or xG in Premier League football matches. If this sounds a bit alien, this, is an excellent primer on expected goals, and the intuition behind it all.
