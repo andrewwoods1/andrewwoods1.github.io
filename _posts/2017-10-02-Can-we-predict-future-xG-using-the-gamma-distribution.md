@@ -23,6 +23,8 @@ As it turns out, xG data roughly follows a Gamma distribution (below), and this 
 
 ![Img1](/images/gamma_xg.png "Gamma distribution")
 
+More rigourously, we can use the Kolmogorov-Smirnov test to compare the cumulative distribution function of a gamma random variable to our emipirical function. The test statistic here is the largest deviation between these two CDFs and this comes to be 0.026. This correponds to a p-value of 0.31, meaning we fail to reject the hypothesis that our data is gamma distributed. 
+
 I, unfortunately, don’t have access to Opta’s, or anyone else’s feed of endless data, and so data collection was quite a painful task. WhoScored and manually collecting xG data, game-by-game, were the two means of collection.
 
 The variables included in what I judged to be the best functioning model for the Home team’s xG in any given Premier League match were the following:
