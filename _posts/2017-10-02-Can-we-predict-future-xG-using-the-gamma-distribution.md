@@ -17,7 +17,7 @@ Fitted values can then act as the input to our Poisson distribution so that odds
 
 **The Model**
 
-One point of note is that xG data is significantly different in nature to goals scored. Obviously, goals scored must take an integer value, while xG can take any value on the real line. This make the Poisson regression approach unworkable.
+One point of note is that xG data is significantly different in nature to goals scored. Obviously, goals scored must take an integer value, while xG can take any (positive) value on the real line. This makes the Poisson regression approach unworkable.
 
 As it turns out, xG data roughly follows a Gamma distribution (below), and this ties in nicely with the fact that a Gamma prior is used in Bayesian inference for Poisson data. For this reason, a Gamma regression model was used.
 
@@ -29,17 +29,17 @@ I, unfortunately, don’t have access to Opta’s, or anyone else’s feed of en
 
 The variables included in what I judged to be the best functioning model for the Home team’s xG in any given Premier League match were the following:
 
-Home xG Ratio
+**Home xG Ratio**
 
-Away xG Ratio
+**Away xG Ratio**
 
-Home Shots On Target PG
+**Home Shots On Target PG**
 
-Home xG Per Shot
+**Home xG Per Shot**
 
-Away Shots Conceded PG
+**Away Shots Conceded PG**
 
-Away xG Per Shot
+**Away xG Per Shot Conceded**
 
 The model for Away xG took a similar form.
 
@@ -47,4 +47,4 @@ The data used was the entirety of the 2016/17 season, as well as the current sea
 
 Using the model, I’ll approximate the likelihood of game outcomes and the total number of goals in games, as well as forecasting forward, to predict the final league table, once a sufficient amount of the season has been played.
 
-[1]: Karlis, D. and Ntzoufras, I., 2003. Analysis of sports data by using bivariate Poisson models. Journal of the Royal Statistical Society: Series D (The Statistician), 52(3), pp.381-393.
+*[1]: Karlis, D. and Ntzoufras, I., 2003. Analysis of sports data by using bivariate Poisson models. Journal of the Royal Statistical* *Society: Series D (The Statistician), 52(3), pp.381-393.*
