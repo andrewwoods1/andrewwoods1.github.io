@@ -23,13 +23,15 @@ To assess a player's finishing ability, we can look at how their actions influen
 
 Taking all of this into account, the performance of Europe's top goal-getters can be analysed in more detail than looking at simple goal counts. The data shows that between 2011 and 2017, the top performers in terms of xG per game and post shot xG differential are who we would expect them to be, however with noticebale differences between the two top performers. Even the most casual of football fan would know Cristiano Ronaldo to be volume heavy shooter, and this is shown to be the case.
 
-[Img1]
+![Img1](/images/xg_finishers.png "graph")
 
 Lionel Messi is shown to be a far less volumous shooter, with greater finishing ability. In fact, only Diego Costa comes close to Messi in terms of post shot xG differential.
 
 Interestingly, Christian Benteke is present in the this group of top performers, however its expected that up to date data would show otherwise, given the form he has recently encountered.
 
 Looking at the other end of the scale there are a number of familiar names showing an average reduction in chance conversion likelihood, due to the player's shot placement. Brighton's Tomer Hemed is by far the worst finisher of those players with xG per game of 0.3 or more. Pierre-Michel Lasogga will be a familiar name to Leeds supporters, and did not live up to the bill of replacing Chris Wood. Personally speaking, an average post shot xG differential of approximately -0.022 for Lasogga is not surprising. 
+
+![Img2](/images/xg_poor_finishers.png "graph")
 
 Coming full circle, at this point, we should be in a position to return to the fan's forum, and answer questions over Abel Hernandez. 
 
