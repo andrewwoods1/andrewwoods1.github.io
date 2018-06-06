@@ -36,4 +36,5 @@ Looking at the other end of the scale there are a number of familiar names showi
 Coming full circle, at this point, we should be in a position to return to the fan's forum, and answer questions over Abel Hernandez. 
 
 **Is he any good?**
+
 With a post shot xG differential average of 0.012, he is well within the top 25% of finishers in our dataset and an xG per game of 0.23 across 60 games, the answer to this question is most defnitely yes. At the very least, he is a significant upgrade on Lasogga. Whether Leeds can keep him fit to profit from the superior finishing ability remains to be seen.
