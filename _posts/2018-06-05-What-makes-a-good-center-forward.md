@@ -26,11 +26,11 @@ Taking all of this into account, the performance of Europe's top goal-getters ca
 
 ![Img1](/images/xg_finishers.png "graph")
 
-Lionel Messi is shown to be a less volumous shooter, with greater finishing ability. In fact, only Diego Costa comes close to Messi in terms of post shot xG differential.
+Lionel Messi is shown to be a less volumous shooter, with greater finishing ability. Messi is then followed closely in both respects by his Barcelona team-mate Luis Suarez.
 
-Interestingly, Christian Benteke is present in the this group of top performers, however its expected that up to date data would show otherwise, given the form he has recently encountered.
+Interestingly, Daniel Sturridge is included among the top performers in terms of finishing ability. Given that the data includes the 13/14 season, this is not a surprise and it is interesting to see how his career has diverged from that of Luis Suarez, his strike partner in that period.
 
-Looking at the other end of the scale there are a number of familiar names showing an average reduction in chance conversion likelihood, due to the player's shot placement. Brighton's Tomer Hemed is by far the worst finisher of those players with xG per game of 0.3 or more. Pierre-Michel Lasogga will be a familiar name to Leeds supporters, and did not live up to the bill of replacing Chris Wood. Personally speaking, an average post shot xG differential of approximately -0.022 for Lasogga is not surprising. 
+Looking at the other end of the scale there are a number of familiar names showing an average reduction in chance conversion likelihood, due to the player's shot placement. Graziano Pelle is by far the worst finisher of those players with xG per game of 0.3 or more. Pierre-Michel Lasogga will be a familiar name to Leeds supporters, and did not live up to the bill of replacing Chris Wood. Personally speaking, an average post shot xG differential of approximately -0.025 for Lasogga is not surprising. 
 
 ![Img2](/images/xg_poor_finishers.png "graph")
 
@@ -38,4 +38,4 @@ Coming full circle, at this point, we should be in a position to return to the f
 
 **Is he any good?**
 
-With a post shot xG differential average of 0.012, he is well within the top 25% of finishers in our dataset and an xG per game of 0.23 across 60 games, the answer to this question is most defnitely yes. At the very least, he is a significant upgrade on Lasogga. Whether Leeds can keep him fit to profit from the superior finishing ability remains to be seen.
+With a post shot xG differential average of 0.001, he is a superior finisher to Lasogga. A comparable xG per game of 0.27 across 60 games means it is easy to make the case that Hernandez would be, at the very least, a significant upgrade on Lasogga. Leeds will be getting a similar player stats-wise, but with far better recent showings. However, whether Leeds can keep him fit remains to be seen.
