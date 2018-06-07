@@ -38,4 +38,4 @@ Coming full circle, at this point, we should be in a position to return to the f
 
 **Is he any good?**
 
-With a post shot xG differential average of 0.001, he is a superior finisher to Lasogga. A comparable xG per game of 0.27 across 60 games means it is easy to make the case that Hernandez would be, at the very least, a significant upgrade on Lasogga. Leeds will be getting a similar player stats-wise, but with far better recent showings. However, whether Leeds can keep him fit remains to be seen.
+With a post shot xG differential average of 0.001, he is a superior finisher to Lasogga. A comparable xG per game of 0.27 across 60 games means it is easy to make the case that Hernandez would be, at the very least, a significant upgrade on Lasogga. Leeds will be getting a similar player stats-wise, but with far better recent showings and a proven record of performing in English football. However, whether Leeds can keep him fit remains to be seen.
