@@ -8,4 +8,8 @@ Watching England's pre-World Cup friendly with Costa Rica, Glen Hoddle could be 
 
 *Well done* was gist of the comment for what was a routine save not worthy of plaudits, particularly for an England goalkeeper. The implication here is that in making such a save, Butland has had to overcome an extra impediment to simply making the save, brought on my the amount of time the ball spent in the opposite end of the pitch.
 
-However, the question should be asked; is there any basis to this, and if not, why is this cliché an accepted form of *analysis* in mainstream coverage of football?
+However, the question should be asked; is there any basis to this, and if not, why is this cliché an accepted form of analysis in mainstream coverage of football?
+
+A look at the data from Europe's top five leagues shows that the average wait time for a goalkeeper between shots is roughly 17 minutes. This can be broken down further for home and away goalkeepers, with averages of 16 and 19 minutes respectively. 
+
+The bars below show the conversion rates for shots, binned by their wait times
