@@ -8,4 +8,4 @@ I am a statistics graduate from University College Dublin, currently studying fo
 
 ### Contact me
 Twitter: @andrewwoods_1
-[andrew.woods.1@ucdconnect.ie](mailto:andrew.woods.1@ucdconnect.ie)
+Email: [andrew.woods.1@ucdconnect.ie](mailto:andrew.woods.1@ucdconnect.ie)
