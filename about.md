@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a statistics graduate from University College Dublin, currently studying for an M.Sc. in Data Science at King's College London. Interested in all applications of data science and statistics.
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Twitter: @andrewwoods_1
+[andrew.woods.1@ucdconnect.ie](mailto:andrew.woods.1@ucdconnect.ie)
