@@ -4,7 +4,7 @@ layout: post
 title: How much have Leeds United improved?
 ---
 
-Much has been made of Leeds' great start to the season, but as supporters know, good runs soon came to an end under Garry Monk and in particular Thomas Christensen last season. 
+Much has been made of Leeds' great start to the season, but as supporters know, good runs soon came to an end under Garry Monk and in particular Thomas Christiansen last season. 
 What can the stats tell us about this season so far, and are Leeds genuine contenders for promotion this time around?
 
 Using expected goals we can look at exactly how Leeds have performed in games, decipher whether the apparent improvement is down to luck, and if not, how much exactly have they improved relative to the second half of last season.
