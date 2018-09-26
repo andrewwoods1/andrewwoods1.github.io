@@ -4,7 +4,7 @@ title: Do idle keepers lose concentration?
 ---
 
 A much used trope on the co-comms circuit is the congratulatory words for goalkeepers who make a save having stood idle for a certain period.
-Watching England's pre-World Cup friendly with Costa Rica, Glen Hoddle could be heard trotting out this line after he faced, and saved, his first shot.
+Watching England's pre-World Cup friendly with Costa Rica, Glen Hoddle could be heard trotting out this line after Jack Butland faced, and saved, his first shot.
 
 *Well done* was gist of the comment for what was a routine save not worthy of plaudits, particularly for an England goalkeeper. The implication here is that in making such a save, Butland has had to overcome an extra impediment to simply making the save, brought on by the amount of time the ball spent at the opposite end of the pitch.
 
