@@ -29,10 +29,12 @@ Looking at the data from Leeds' Boxing Day win over Burton Albion onwards, there
 
 ![Img1](/images/1718xg.png "1718xg")
 
-Comparing this season's xG ratio to that of the second half of last season shows how each team's rating has changed. Not surprisingly, Leeds' by this measure Leeds are the most improved side in the division.
+Comparing this season's xG ratio to that of the second half of last season shows how each team's rating has changed. Not surprisingly, by this measure Leeds are the most improved side in the division.
 
 ![Img1](/images/1819imp.png "improvement")
 
 With the squad used to this point made up almost entirely of players at the club last season, the improvement that Bielsa has brought about is remarkable. 
+
+All in all, while Leeds may have benefitted so far from some excellent finishing, which may or may not continue throughout the season, there is a lot of evidence to suggest that Leeds have been good value for the results they have put together so far, and this is not yet another false dawn.
 
 
