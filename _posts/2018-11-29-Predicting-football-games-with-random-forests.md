@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Predicting football matches with Random Forests and Platt's scaling
+title: Predicting football matches with Random Forests and Platt scaling
 ---
 
 Random forests have been shown to be an incredibly powerful means of classification. However for a problem such as football match result prediction, we're less interested in classification and moreso in the uncertainties involved. The following post gives details on the random forest model I have been working on of late, and how Platt scaling corrects the uncalibrated probabilities calculated by the classifier. 
