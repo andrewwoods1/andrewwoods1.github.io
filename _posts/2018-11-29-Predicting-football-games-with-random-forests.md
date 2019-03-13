@@ -9,9 +9,6 @@ For this model I've used fivethirtyeight's football dataset, specifically for th
 The features of the model are mostly made up from expected goals data taken from fivethirtyeight's dataset. This data gives an inidcation of a team's defensive or offensive performance in a game and has been shown to have greater predictive power than the actual goals scored in a game.
 Feature engineering took the approach of trying to marry together both the short term *form* of a team and also the underlying longer term *talent* of the team. This was done by coming up with two versions of each metric used as a feature; a version calculated over the short term and the same for the longer term. 
 The final list of features came to include metrics based on xG for and against, broken down by home and away, as well as xG ratio, a known good indicator of future team performance (more on xG ratio [here](http://11tegen11.net/2016/02/21/predicting-league-football-using-xg-and-more/)) 
-Finally, k-means clustering was used on each distinct set of values of *xG for p.g* and *xG against p.g*. By clustering these values, we could assign them labels, and using those labels, look at how each team fared against opposition corresponding to each cluster. 
-An example of such a clustering is below, for team's away performances over the previous ten game window. There are no distinct clusters here, however it is useful to stratify the teams' performances.
-![Img1](/images/Rplot01.png "clustering")
 
 The preprocessing was all done in R, simply for the use of the dplyr library. The model itself was created in python, as below
  
@@ -27,7 +24,7 @@ clf = RandomForestClassifier(n_jobs=-1,
 
 ```
 A common issue with posterior probabilities produced by classifiers such as a random forest is their calibration, or lack thereof. I common method of rectifying this is known as Platt scaling, which uses the sigmoid function to map the uncalibrated probabilities back to more accurate ones. See [here](https://en.wikipedia.org/wiki/Platt_scaling), [here](https://www.cs.cornell.edu/~caruana/niculescu.scldbst.crc.rev4.pdf) and [here](https://people.dsv.su.se/~henke/papers/bostrom08b.pdf) for more explanation.
-Luckily, this method is built in to sci kit learn.
+This method is built in to sci-kit learn.
 
 ```python
 
