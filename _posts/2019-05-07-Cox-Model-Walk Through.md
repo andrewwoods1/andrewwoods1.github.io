@@ -1,5 +1,6 @@
-
-Cox Regression Walk-Through
+---
+layout: post
+title: Cox regression: short tutorial
 ---
 
 
