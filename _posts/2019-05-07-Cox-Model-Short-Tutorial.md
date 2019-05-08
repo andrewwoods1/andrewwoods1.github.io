@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: A short tutorial on Cox regression models
