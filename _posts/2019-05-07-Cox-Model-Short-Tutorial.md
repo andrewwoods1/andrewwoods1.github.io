@@ -48,7 +48,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('data/WA_Fn-UseC_-HR-Employee-Attrition.csv')
 
 ```
-For interpretability's sake, take a subset of the columns as features. 'YearsSinceLastPromotion' and  employee age will be used as the predictor variables. 'YearsAtCompany' is used as the 'time' variable and 'Attrition' tells us whether they have left the company or not.
+For interpretability's sake, take a subset of the columns as features. **YearsSinceLastPromotion** and  employee **Age** will be used as the predictor variables. **YearsAtCompany** is used as the 'time' variable and **Attrition** tells us whether they have left the company or not.
 
 ```python
 features = ['Attrition','Age','YearsSinceLastPromotion','YearsAtCompany']
@@ -58,8 +58,6 @@ model = ll.CoxPHFitter()
 model.fit(df[features], duration_col='YearsAtCompany', event_col='Attrition', show_progress=True)
 
 model.print_summary()
-model.hazards_
-```
 
     Iteration 1: norm_delta = 0.42260, step_size = 0.9500, ll = -9255.30149, newton_decrement = 215.12706, seconds_since_start = 0.0
     Iteration 2: norm_delta = 0.14466, step_size = 0.9500, ll = -9016.66007, newton_decrement = 17.72530, seconds_since_start = 0.0
@@ -94,6 +92,10 @@ model.hazards_
 
 ```
 
+**Lifelines** has a model summary output method similar to that found in R, giving model summary statistics, as shown above.
+
+
+
 ```python
 # Confidence intervals for the weight values
 model.confidence_intervals_
@@ -117,8 +119,8 @@ model.confidence_intervals_
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>lower-bound</th>
-      <th>upper-bound</th>
+      <th>lower-bound </th>
+      <th>upper-bound </th>
     </tr>
   </thead>
   <tbody>
@@ -128,7 +130,7 @@ model.confidence_intervals_
       <td>-0.030282</td>
     </tr>
     <tr>
-      <th>YearsSinceLastPromotion</th>
+      <th>YearsSinceLastPromotion  </th>
       <td>-0.165734</td>
       <td>-0.129805</td>
     </tr>
@@ -158,7 +160,7 @@ sns.set(rc={'figure.figsize':(20,16)})
 ```
 
 
-![png](output_5_0.png)
+![png](/images/output_5_0.png "covariates")
 
 
 Concordance Index
