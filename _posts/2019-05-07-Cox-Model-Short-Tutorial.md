@@ -82,14 +82,6 @@ model.print_summary()
     Log-likelihood ratio test = 515.59 on 2 df, -log2(p)=371.92
     
 
-
-
-
-    Age                       -0.037370
-    YearsSinceLastPromotion   -0.147769
-    dtype: float64
-
-
 ```
 
 **Lifelines** has a model summary output method similar to that found in R, giving model summary statistics, as shown above.
@@ -100,44 +92,7 @@ model.print_summary()
 # Confidence intervals for the weight values
 model.confidence_intervals_
 ```
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>lower-bound </th>
-      <th>upper-bound </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Age</th>
-      <td>-0.044457</td>
-      <td>-0.030282</td>
-    </tr>
-    <tr>
-      <th>YearsSinceLastPromotion  </th>
-      <td>-0.165734</td>
-      <td>-0.129805</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+[img1](/images/confintervals.png)
 
 ```python
 # Interpretation of parameters
