@@ -1,5 +1,8 @@
 
-
+---
+layout: post
+title: A short tutorial on Cox regression models
+---
 
 Cox regression is a proportional hazards model used to model 'time to event' data. It's so named as a change in one of the inputs to the model results in a multiplicative effect on the hazard rate.
 
