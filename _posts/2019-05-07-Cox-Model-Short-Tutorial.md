@@ -28,13 +28,13 @@ This expression can be maximised w.r.t to the model parameters.
 
 ***Application***
 
-The dataset found here was used as an example dataset for fitting a Cox regression model: https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
+The dataset found [here](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset) was used as an example dataset for fitting a Cox regression model.
 
 The data relates to HR data from IBM and can be used to model employee turnover. Knowing which employees are most likely to leave, as well as the largest contributing risk factors in theory allows employers to pre-empt and/or prevent an employee leaving. 
 
-To do this the **lifelines** pyton package can be used. All info on it can be found here: https://lifelines.readthedocs.io/en/latest/ 
+To do this the **lifelines** pyton package can be used. All info on it can be found [here](https://lifelines.readthedocs.io/en/latest/).  
 
-Note that the lifelines installation may require you to have the C++ complier for Python 2.7 found here: https://www.microsoft.com/en-us/download/confirmation.aspx?id=44266
+Note that the lifelines installation may require you to have the C++ complier for Python 2.7 found [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=44266).
 
 
 ```python
@@ -47,186 +47,10 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('data/WA_Fn-UseC_-HR-Employee-Attrition.csv')
 
-# Inspect the data
-df.head()
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Age</th>
-      <th>Attrition</th>
-      <th>BusinessTravel</th>
-      <th>DailyRate</th>
-      <th>Department</th>
-      <th>DistanceFromHome</th>
-      <th>Education</th>
-      <th>EducationField</th>
-      <th>EmployeeCount</th>
-      <th>EmployeeNumber</th>
-      <th>...</th>
-      <th>RelationshipSatisfaction</th>
-      <th>StandardHours</th>
-      <th>StockOptionLevel</th>
-      <th>TotalWorkingYears</th>
-      <th>TrainingTimesLastYear</th>
-      <th>WorkLifeBalance</th>
-      <th>YearsAtCompany</th>
-      <th>YearsInCurrentRole</th>
-      <th>YearsSinceLastPromotion</th>
-      <th>YearsWithCurrManager</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>41</td>
-      <td>Yes</td>
-      <td>Travel_Rarely</td>
-      <td>1102</td>
-      <td>Sales</td>
-      <td>1</td>
-      <td>2</td>
-      <td>Life Sciences</td>
-      <td>1</td>
-      <td>1</td>
-      <td>...</td>
-      <td>1</td>
-      <td>80</td>
-      <td>0</td>
-      <td>8</td>
-      <td>0</td>
-      <td>1</td>
-      <td>6</td>
-      <td>4</td>
-      <td>0</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>49</td>
-      <td>No</td>
-      <td>Travel_Frequently</td>
-      <td>279</td>
-      <td>Research &amp; Development</td>
-      <td>8</td>
-      <td>1</td>
-      <td>Life Sciences</td>
-      <td>1</td>
-      <td>2</td>
-      <td>...</td>
-      <td>4</td>
-      <td>80</td>
-      <td>1</td>
-      <td>10</td>
-      <td>3</td>
-      <td>3</td>
-      <td>10</td>
-      <td>7</td>
-      <td>1</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>37</td>
-      <td>Yes</td>
-      <td>Travel_Rarely</td>
-      <td>1373</td>
-      <td>Research &amp; Development</td>
-      <td>2</td>
-      <td>2</td>
-      <td>Other</td>
-      <td>1</td>
-      <td>4</td>
-      <td>...</td>
-      <td>2</td>
-      <td>80</td>
-      <td>0</td>
-      <td>7</td>
-      <td>3</td>
-      <td>3</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>33</td>
-      <td>No</td>
-      <td>Travel_Frequently</td>
-      <td>1392</td>
-      <td>Research &amp; Development</td>
-      <td>3</td>
-      <td>4</td>
-      <td>Life Sciences</td>
-      <td>1</td>
-      <td>5</td>
-      <td>...</td>
-      <td>3</td>
-      <td>80</td>
-      <td>0</td>
-      <td>8</td>
-      <td>3</td>
-      <td>3</td>
-      <td>8</td>
-      <td>7</td>
-      <td>3</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>27</td>
-      <td>No</td>
-      <td>Travel_Rarely</td>
-      <td>591</td>
-      <td>Research &amp; Development</td>
-      <td>2</td>
-      <td>1</td>
-      <td>Medical</td>
-      <td>1</td>
-      <td>7</td>
-      <td>...</td>
-      <td>4</td>
-      <td>80</td>
-      <td>1</td>
-      <td>6</td>
-      <td>3</td>
-      <td>3</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 35 columns</p>
-</div>
-
-
-
+For interpretability's sake, take a subset of the columns as features. 'YearsSinceLastPromotion' and  employee age will be used as the predictor variables. 'YearsAtCompany' is used as the 'time' variable and 'Attrition' tells us whether they have left the company or not.
 
 ```python
-# For interpretability's sake, take a subset of the columns as features
-
 features = ['Attrition','Age','YearsSinceLastPromotion','YearsAtCompany']
 
 # Fit the model via lifelines 
@@ -268,15 +92,12 @@ model.hazards_
     dtype: float64
 
 
-
+```
 
 ```python
 # Confidence intervals for the weight values
 model.confidence_intervals_
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -314,8 +135,6 @@ model.confidence_intervals_
   </tbody>
 </table>
 </div>
-
-
 
 
 ```python
