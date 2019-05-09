@@ -52,7 +52,7 @@ df = pd.read_csv('data/WA_Fn-UseC_-HR-Employee-Attrition.csv')
 ~~~
 For interpretability's sake, take a subset of the columns as features. **YearsSinceLastPromotion** and  employee **Age** will be used as the predictor variables. **YearsAtCompany** is used as the 'time' variable and **Attrition** tells us whether they have left the company or not.
 
-```python
+~~~ .python
 features = ['Attrition','Age','YearsSinceLastPromotion','YearsAtCompany']
 
 # Fit the model via lifelines 
@@ -84,19 +84,20 @@ model.print_summary()
     Log-likelihood ratio test = 515.59 on 2 df, -log2(p)=371.92
     
 
-```
+~~~
 
 **Lifelines** has a model summary output method similar to that found in R, giving model summary statistics, as shown above.
 
 
 
-```python
+~~~ .python
 # Confidence intervals for the weight values
 model.confidence_intervals_
-```
-[img1](/images/confintervals.png)
+~~~
 
-```python
+![img1](/images/confintervals.png)
+
+~~~ .python
 # Interpretation of parameters
 # Take age:
 
@@ -114,7 +115,7 @@ plt.ylabel('Multiplicative effect on attrition rate')
 sns.set(rc={'figure.figsize':(20,16)})
 # So increases of age result in a decreased attrition rate
 # Same goes for length of time since promotion.
-```
+~~~
 
 
 ![png](/images/output_5_0.png "covariates")
