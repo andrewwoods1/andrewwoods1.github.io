@@ -39,7 +39,7 @@ To do this the **lifelines** pyton package can be used. All info on it can be fo
 Note that the lifelines installation may require you to have the C++ complier for Python 2.7 found [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=44266).
 
 
-```python
+~~~ .python
 # Import libraries and data
 import pandas as pd
 import numpy as np
@@ -49,7 +49,7 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('data/WA_Fn-UseC_-HR-Employee-Attrition.csv')
 
-```
+~~~
 For interpretability's sake, take a subset of the columns as features. **YearsSinceLastPromotion** and  employee **Age** will be used as the predictor variables. **YearsAtCompany** is used as the 'time' variable and **Attrition** tells us whether they have left the company or not.
 
 ```python
