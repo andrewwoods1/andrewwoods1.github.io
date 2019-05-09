@@ -95,7 +95,7 @@ model.print_summary()
 model.confidence_intervals_
 ~~~
 
-![img1](/images/confintervals.png)
+![img1](/images/confintervals.PNG)
 
 ~~~ .python
 # Interpretation of parameters
